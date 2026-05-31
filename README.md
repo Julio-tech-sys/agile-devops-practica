@@ -1,6 +1,6 @@
 # Práctica CI/CD - Agile Developments and Software DevOps
 
-Proyecto académico mínimo para demostrar un flujo CI/CD completo con GitHub, Jenkins, DockerHub, SonarQube y Trivy.
+Proyecto mínimo para demostrar un flujo CI/CD completo con GitHub, Jenkins, DockerHub, SonarQube y Trivy.
 
 ## Requisitos locales
 
