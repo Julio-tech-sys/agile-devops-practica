@@ -1,3 +1,5 @@
+Este proyecto se ha desarrollado siguiendo un flujo de trabajo basado en ramas, commits y pull requests.
+
 # Práctica CI/CD - Agile Developments and Software DevOps
 
 Proyecto mínimo para demostrar un flujo CI/CD completo con GitHub, Jenkins, DockerHub, SonarQube y Trivy.
@@ -44,3 +46,4 @@ DOCKERHUB_REPO = 'TU_USUARIO_DOCKERHUB/agile-devops-practica'
 por tu repositorio real de DockerHub.
 
 No se incluyen capturas reales ni logs inventados. Debes generarlos durante tu ejecución en Jenkins y guardarlos en `docs/capturas` y `docs/logs`.
+
