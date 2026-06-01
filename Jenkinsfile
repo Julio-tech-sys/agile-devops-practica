@@ -86,9 +86,11 @@ pipeline {
                             sh 'docker push $DOCKER_IMAGE'
                             sh 'docker push $DOCKER_IMAGE_LATEST'
                         } else {
-                            bat 'echo %DOCKERHUB_TOKEN% | docker login -u %DOCKERHUB_USER% --password-stdin'
-                            bat 'docker push %DOCKER_IMAGE%'
-                            bat 'docker push %DOCKER_IMAGE_LATEST%'
+                            bat '''
+                                docker login -u %DOCKERHUB_USER% -p %DOCKERHUB_TOKEN%
+                                docker push %DOCKER_IMAGE%
+                                docker push %DOCKER_IMAGE_LATEST%
+                            '''
                         }
                     }
                 }
