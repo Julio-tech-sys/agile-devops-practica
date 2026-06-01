@@ -2,7 +2,6 @@ pipeline {
     agent any
 
     environment {
-        // Sustituye TU_USUARIO_DOCKERHUB por tu usuario real de DockerHub.
         DOCKERHUB_REPO = 'juliotechsys/agile-devops-practica'
         DOCKER_IMAGE = "${DOCKERHUB_REPO}:${env.BUILD_NUMBER}"
         DOCKER_IMAGE_LATEST = "${DOCKERHUB_REPO}:latest"
